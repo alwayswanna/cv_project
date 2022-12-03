@@ -1,0 +1,39 @@
+{
+  "personal-data": "Hi, my name is Gleb. I'm Java/Kotlin - developer 1.5 of years experience, think scale grade knowledge is Middle/Middle-. I work in finance sphere, create microservices for business purposes.\n\nIn free time from work, I create useless and simple projects on Github:) I have small experience writing frontend applications with Flutter.\n\nGood luck!",
+  "year-of-experience": "2 years.",
+  "skills": {
+    "Java/Kotlin": 4,
+    "Spring Boot/Spring Cloud": 4,
+    "String Security/OAuth2": 3,
+    "Keycloak": 3,
+    "Hibernate/JPA:": 4,
+    "Postgres/MySQL/MongoDB": 3,
+    "Helm Charts/K8s": 2,
+    "Gradle/Maven": 4,
+    "RabbitMQ": 3,
+    "Jira/Gitlab/Azure": 3
+  },
+  "work-experience": [
+    {
+      "company": " OOO Аукционы Федерации",
+      "period": "12.2018 - 03.2020",
+      "responsibilities": "\uD83D\uDCCEProcessing applications from users\n \n\uD83D\uDCCECreating tickets in the integrator's bug tracking system\n \n\uD83D\uDCCEProviding technical support to users",
+      "skills": "📎Linux \n📎CSS \n📎HTML",
+      "job": "Technical support specialist"
+    },
+    {
+      "company": " K-SOFT ENGINEERING",
+      "period": "03.2020 - 09.2021",
+      "responsibilities": "📎Creation of accompanying software\n \n📎Improvement and expansion of the functionality of autotests\n \n📎Optimization of development processes",
+      "skills": "📎Java 11 \n📎Gradle \n📎JavaFx \n📎Spring Framework \n📎Selenium \n📎Google API \n📎PDFBox \n📎Linux",
+      "job": "QA-engineer (automation)"
+    },
+    {
+      "company": " BCS FinTech",
+      "period": "09.2021 - nowadays",
+      "responsibilities": "📎Creation of accompanying software\n \n📎Improvement and expansion of the functionality of autotests\n \n📎Optimization of development processes",
+      "skills": "📎Java 8-11 \n📎Kotlin \n📎Docker \n📎Openshift \n📎OKD \n📎Maven \n📎Spring Boot \n📎Spring WebFlux \n📎RabbitMQ \n📎PostgreSQL \n📎GitlabCI \n📎ELK \n📎OAuth2 \n📎Keycloak",
+      "job": "Java developer"
+    }
+  ]
+}
