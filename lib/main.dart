@@ -39,9 +39,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void initState() {
-    Future.delayed(const Duration(microseconds: 100), () {
-      loadJsonData();
-    });
+    // Future.delayed(const Duration(microseconds: 100), () {
+    //   loadJsonData();
+    // });
     super.initState();
   }
 
@@ -106,7 +106,17 @@ class _MyHomePageState extends State<MyHomePage> {
                     Colors.blueAccent,
                     Colors.blue,
                   ],
-                  child: buildMainContent(1.0));
+                  child: FutureBuilder(
+                      future: DefaultAssetBundle.of(context)
+                          .loadString('assets/data/main-data.json'),
+                      builder: (context, snapshot) {
+                        if (!snapshot.hasData) {
+                          return const CircularProgressIndicator();
+                        } else {
+                          return FullScreenWidget()
+                              .fullScreenView(context, PersonalData.fromJson(jsonDecode(snapshot.data!)), 1.0);
+                        }
+                      }));
             } else {
               return AnimateGradient(
                   primaryBegin: Alignment.topLeft,
@@ -123,24 +133,34 @@ class _MyHomePageState extends State<MyHomePage> {
                     Colors.blueAccent,
                     Colors.blue,
                   ],
-                  child: buildMainContent(0.5));
+                  child: FutureBuilder(
+                      future: DefaultAssetBundle.of(context)
+                          .loadString('assets/data/main-data.json'),
+                      builder: (context, snapshot) {
+                        if (!snapshot.hasData) {
+                          return const CircularProgressIndicator();
+                        } else {
+                          return FullScreenWidget()
+                              .fullScreenView(context, PersonalData.fromJson(jsonDecode(snapshot.data!)), 0.5);
+                        }
+                      }));
             }
           },
         )));
   }
 
-  void loadJsonData() async {
-    var jsonData = await DefaultAssetBundle.of(context)
-        .loadString("assets/data/main-data.json");
-    previewData = PersonalData.fromJson(jsonDecode(jsonData));
-  }
-
-  buildMainContent(double scale) {
-    if(previewData != null){
-      return FullScreenWidget()
-          .fullScreenView(context, previewData!, scale);
-    }else{
-      return Container();
-    }
-  }
+  // void loadJsonData() async {
+  //   var jsonData = await DefaultAssetBundle.of(context)
+  //       .loadString("assets/data/main-data.json");
+  //   previewData =
+  // }
+  //
+  // buildMainContent(double scale) {
+  //   if(previewData != null){
+  //     return FullScreenWidget()
+  //         .fullScreenView(context, previewData!, scale);
+  //   }else{
+  //     return Container();
+  //   }
+  // }
 }
