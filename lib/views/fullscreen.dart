@@ -20,7 +20,9 @@ class FullScreenWidget {
           child: Text(
             'About:',
             style: TextStyle(
-                color: Colors.black, fontSize: 50 * scale, fontFamily: "Inconsolata"),
+                color: Colors.black,
+                fontSize: 50 * scale,
+                fontFamily: "Inconsolata"),
           )),
     ));
     layout.add(
@@ -52,22 +54,28 @@ class FullScreenWidget {
           child: Text(
             'Skills:',
             style: TextStyle(
-                color: Colors.black, fontSize: 50 * scale, fontFamily: "Inconsolata"),
+                color: Colors.black,
+                fontSize: 50 * scale,
+                fontFamily: "Inconsolata"),
           )),
     ));
     for (var skill in dataPreview.skills.entries) {
       layout.add(ResponsiveGridCol(
-          md: 12, lg: 6, child: buildProfessionalSkills(skill.key, skill.value, scale)));
+          md: 12,
+          lg: 6,
+          child: buildProfessionalSkills(skill.key, skill.value, scale)));
     }
 
     layout.add(ResponsiveGridCol(
       xl: 12,
-      child: const Padding(
-          padding: EdgeInsets.fromLTRB(30, 20, 10, 10),
+      child: Padding(
+          padding: const EdgeInsets.fromLTRB(30, 20, 10, 10),
           child: Text(
             'Work experience:',
             style: TextStyle(
-                color: Colors.black, fontSize: 50, fontFamily: "Inconsolata"),
+                color: Colors.black,
+                fontSize: 50 * scale,
+                fontFamily: "Inconsolata"),
           )),
     ));
 
@@ -75,6 +83,9 @@ class FullScreenWidget {
       layout.add(ResponsiveGridCol(
           md: 12, xs: 12, child: buildExperience(experience, scale)));
     }
+
+    layout.add(ResponsiveGridCol(
+        child: const Padding(padding: EdgeInsets.fromLTRB(30, 20, 10, 10))));
 
     return layout;
   }

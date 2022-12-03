@@ -35,17 +35,13 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  late PersonalData previewData;
+  PersonalData? previewData;
 
   @override
   void initState() {
-    previewData = PersonalData(
-        personalData: '',
-        yearOfExperience: '',
-        skills: {'zero': 3, 'one': 1, 'two': 2},
-        workExperience:
-            List.empty());
-    loadJsonData();
+    Future.delayed(const Duration(microseconds: 100), () {
+      loadJsonData();
+    });
     super.initState();
   }
 
@@ -110,8 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     Colors.blueAccent,
                     Colors.blue,
                   ],
-                  child:
-                      FullScreenWidget().fullScreenView(context, previewData, 1.0));
+                  child: buildMainContent(1.0));
             } else {
               return AnimateGradient(
                   primaryBegin: Alignment.topLeft,
@@ -128,8 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     Colors.blueAccent,
                     Colors.blue,
                   ],
-                  child:
-                  FullScreenWidget().fullScreenView(context, previewData, 0.5));
+                  child: buildMainContent(0.5));
             }
           },
         )));
@@ -139,5 +133,14 @@ class _MyHomePageState extends State<MyHomePage> {
     var jsonData = await DefaultAssetBundle.of(context)
         .loadString("assets/data/main-data.json");
     previewData = PersonalData.fromJson(jsonDecode(jsonData));
+  }
+
+  buildMainContent(double scale) {
+    if(previewData != null){
+      return FullScreenWidget()
+          .fullScreenView(context, previewData!, scale);
+    }else{
+      return Container();
+    }
   }
 }
