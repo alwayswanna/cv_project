@@ -39,9 +39,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void initState() {
-    // Future.delayed(const Duration(microseconds: 100), () {
-    //   loadJsonData();
-    // });
     super.initState();
   }
 
@@ -148,19 +145,4 @@ class _MyHomePageState extends State<MyHomePage> {
           },
         )));
   }
-
-  // void loadJsonData() async {
-  //   var jsonData = await DefaultAssetBundle.of(context)
-  //       .loadString("assets/data/main-data.json");
-  //   previewData =
-  // }
-  //
-  // buildMainContent(double scale) {
-  //   if(previewData != null){
-  //     return FullScreenWidget()
-  //         .fullScreenView(context, previewData!, scale);
-  //   }else{
-  //     return Container();
-  //   }
-  // }
 }

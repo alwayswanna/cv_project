@@ -35,5 +35,10 @@
       "skills": "📎Java 8-11 \n📎Kotlin \n📎Docker \n📎Openshift \n📎OKD \n📎Maven \n📎Spring Boot \n📎Spring WebFlux \n📎RabbitMQ \n📎PostgreSQL \n📎GitlabCI \n📎ELK \n📎OAuth2 \n📎Keycloak",
       "job": "Java developer"
     }
-  ]
+  ],
+  "social-links": {
+    "facebook": "#",
+    "linkedIn": "https://www.linkedin.com/in/alwayswanna",
+    "habrCareer": "https://career.habr.com/alwayswanna"
+  }
 }

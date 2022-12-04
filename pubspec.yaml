@@ -15,6 +15,7 @@ dependencies:
   responsive_grid: ^2.1.0
   responsive_sizer: ^3.1.1
   animate_gradient: ^0.0.2
+  url_launcher: ^6.1.7
 
 dev_dependencies:
   flutter_test:
@@ -25,6 +26,9 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/149071.jpeg
+    - assets/images/facebook.png
+    - assets/images/linkedin.png
+    - assets/images/habr.png
     - assets/data/main-data.json
   fonts:
     - family: Inconsolata

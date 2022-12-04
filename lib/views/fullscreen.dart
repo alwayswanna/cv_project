@@ -1,6 +1,8 @@
 import 'package:cv_project/models/personal_data.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_grid/responsive_grid.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 
 class FullScreenWidget {
   Widget fullScreenView(
@@ -47,6 +49,43 @@ class FullScreenWidget {
               color: const Color.fromRGBO(255, 255, 255, 0.5),
               colorBlendMode: BlendMode.modulate)),
     );
+    layout.add(ResponsiveGridCol(
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(30, 10, 10, 10),
+        child: Row(
+          children: [
+            GestureDetector(
+              onTap: () => launchUrlString(dataPreview.socialLinks.habrCareer),
+              child: Image.asset(
+                'images/habr.png',
+                width: 50.0 * scale,
+                height: 50.0 * scale,
+                fit: BoxFit.cover,
+              ),
+            ),
+            GestureDetector(
+              onTap: () => launchUrlString(dataPreview.socialLinks.facebook),
+              child: Image.asset(
+                'images/facebook.png',
+                width: 50.0 * scale,
+                height: 50.0 * scale,
+                fit: BoxFit.cover,
+              ),
+            ),
+            GestureDetector(
+              onTap: () => launchUrlString(dataPreview.socialLinks.linkedIn),
+              child: Image.asset(
+                'images/linkedin.png', // On click should redirect to an URL
+                width: 50.0 * scale,
+                height: 50.0 * scale,
+                fit: BoxFit.cover,
+              ),
+            )
+          ],
+        ),
+      ),
+    ));
+
     layout.add(ResponsiveGridCol(
       xl: 12,
       child: Padding(
@@ -148,7 +187,7 @@ class FullScreenWidget {
                       workExperience.period,
                       style: TextStyle(
                           color: Colors.black,
-                          fontSize: 30 * scale,
+                          fontSize: 25 * scale,
                           fontFamily: "Inconsolata"),
                     ),
                   )),
@@ -158,7 +197,7 @@ class FullScreenWidget {
                     workExperience.company,
                     style: TextStyle(
                         color: Colors.black,
-                        fontSize: 30 * scale,
+                        fontSize: 25 * scale,
                         fontFamily: "Inconsolata"),
                   )),
               TableCell(
@@ -167,7 +206,7 @@ class FullScreenWidget {
                     workExperience.responsibilities,
                     style: TextStyle(
                         color: Colors.black,
-                        fontSize: 30 * scale,
+                        fontSize: 25 * scale,
                         fontFamily: "Inconsolata"),
                   )),
               TableCell(
@@ -176,7 +215,7 @@ class FullScreenWidget {
                     workExperience.skills,
                     style: TextStyle(
                         color: Colors.black,
-                        fontSize: 30 * scale,
+                        fontSize: 25 * scale,
                         fontFamily: "Inconsolata"),
                   )),
               TableCell(
@@ -185,7 +224,7 @@ class FullScreenWidget {
                     workExperience.job,
                     style: TextStyle(
                         color: Colors.black,
-                        fontSize: 30 * scale,
+                        fontSize: 25 * scale,
                         fontFamily: "Inconsolata"),
                   ))
             ],
