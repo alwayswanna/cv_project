@@ -47,7 +47,7 @@ class FullScreenWidget {
               alignment: Alignment.topCenter,
               "https://avatars.githubusercontent.com/u/62200674?v=4",
               color: const Color.fromRGBO(255, 255, 255, 0.5),
-              colorBlendMode: BlendMode.modulate)),
+              colorBlendMode: BlendMode.darken)),
     );
     layout.add(ResponsiveGridCol(
       child: Padding(
@@ -57,7 +57,7 @@ class FullScreenWidget {
             GestureDetector(
               onTap: () => launchUrlString(dataPreview.socialLinks.habrCareer),
               child: Image.asset(
-                'images/habr.png',
+                '/images/habr.png',
                 width: 50.0 * scale,
                 height: 50.0 * scale,
                 fit: BoxFit.cover,
@@ -66,7 +66,7 @@ class FullScreenWidget {
             GestureDetector(
               onTap: () => launchUrlString(dataPreview.socialLinks.facebook),
               child: Image.asset(
-                'images/facebook.png',
+                '/images/facebook.png',
                 width: 50.0 * scale,
                 height: 50.0 * scale,
                 fit: BoxFit.cover,
@@ -75,7 +75,7 @@ class FullScreenWidget {
             GestureDetector(
               onTap: () => launchUrlString(dataPreview.socialLinks.linkedIn),
               child: Image.asset(
-                'images/linkedin.png', // On click should redirect to an URL
+                '/images/linkedin.png', // On click should redirect to an URL
                 width: 50.0 * scale,
                 height: 50.0 * scale,
                 fit: BoxFit.cover,
