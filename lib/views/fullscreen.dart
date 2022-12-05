@@ -57,7 +57,7 @@ class FullScreenWidget {
             GestureDetector(
               onTap: () => launchUrlString(dataPreview.socialLinks.habrCareer),
               child: Image.asset(
-                '/images/habr.png',
+                'assets/images/habr.png',
                 width: 42.0 * scale,
                 height: 42.0 * scale,
                 fit: BoxFit.cover,
@@ -66,7 +66,7 @@ class FullScreenWidget {
             GestureDetector(
               onTap: () => launchUrlString(dataPreview.socialLinks.facebook),
               child: Image.asset(
-                '/images/facebook.png',
+                'assets/images/facebook.png',
                 width: 50.0 * scale,
                 height: 50.0 * scale,
                 fit: BoxFit.cover,
@@ -75,7 +75,7 @@ class FullScreenWidget {
             GestureDetector(
               onTap: () => launchUrlString(dataPreview.socialLinks.linkedIn),
               child: Image.asset(
-                '/images/linkedin.png', // On click should redirect to an URL
+                'assets/images/linkedin.png', // On click should redirect to an URL
                 width: 50.0 * scale,
                 height: 50.0 * scale,
                 fit: BoxFit.cover,
