@@ -6,8 +6,8 @@ class Assets {
   static const String fontsInconsolataBold = 'assets/fonts/Inconsolata-Bold.ttf';
   static const String fontsInconsolataRegular = 'assets/fonts/Inconsolata-Regular.ttf';
   static const String images149071 = 'assets/images/149071.jpeg';
-  static const String imagesFacebookInternetMediaNetworkSocialIcon123257 = 'assets/images/facebook.png';
-  static const String imagesHabr = 'assets/images/habr.png';
-  static const String imagesLinkedin = 'assets/images/linkedin.png';
+  static const String habr = 'assets/images/habr.png';
+  static const String facebook = 'assets/images/facebook.png';
+  static const String linkedin = 'assets/images/linkedin.png';
 
 }

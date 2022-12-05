@@ -58,8 +58,8 @@ class FullScreenWidget {
               onTap: () => launchUrlString(dataPreview.socialLinks.habrCareer),
               child: Image.asset(
                 '/images/habr.png',
-                width: 50.0 * scale,
-                height: 50.0 * scale,
+                width: 42.0 * scale,
+                height: 42.0 * scale,
                 fit: BoxFit.cover,
               ),
             ),
