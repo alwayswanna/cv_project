@@ -17,7 +17,7 @@
     {
       "company": " OOO Аукционы Федерации",
       "period": "12.2018 - 03.2020",
-      "responsibilities": "\uD83D\uDCCEProcessing applications from users\n \n\uD83D\uDCCECreating tickets in the integrator's bug tracking system\n \n\uD83D\uDCCEProviding technical support to users",
+      "responsibilities": "📎Processing applications from users\n \n\uD83D\uDCCECreating tickets in the integrator's bug tracking system\n \n\uD83D\uDCCEProviding technical support to users",
       "skills": "📎Linux \n📎CSS \n📎HTML",
       "job": "Technical support specialist"
     },
@@ -30,10 +30,17 @@
     },
     {
       "company": " BCS FinTech",
-      "period": "09.2021 - nowadays",
+      "period": "09.2021 - 06.2023",
       "responsibilities": "📎Creation of accompanying software\n \n📎Improvement and expansion of the functionality of autotests\n \n📎Optimization of development processes",
       "skills": "📎Java 8-11 \n📎Kotlin \n📎Docker \n📎Openshift \n📎OKD \n📎Maven \n📎Spring Boot \n📎Spring WebFlux \n📎RabbitMQ \n📎PostgreSQL \n📎GitlabCI \n📎ELK \n📎OAuth2 \n📎Keycloak",
       "job": "Java developer"
+    },
+    {
+      "company": " Sovcombank Technology",
+      "period": "06.2023 - nowadays",
+      "responsibilities": " - ",
+      "skills": "📎Java 8-11 \n📎Oracle Database \n📎Maven \n📎Spring Boot \n📎OAuth2 \n📎Keycloak \n📎VueJS",
+      "job": "Middle Java developer"
     }
   ],
   "social-links": {
