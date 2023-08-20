@@ -1,5 +1,5 @@
 {
-  "personal-data": "Hi, my name is Gleb. I'm Java/Kotlin - developer 1.5 of years experience, think scale grade knowledge is Middle/Middle-. I work in finance sphere, create microservices for business purposes.\n\nIn free time from work, I create useless and simple projects on Github:) I have small experience creating simple frontend applications with Flutter.\n\nGood luck!",
+  "personal-data": "Hi, my name is Gleb. I'm Java/Kotlin - developer 1.5 of years experience, think scale grade knowledge is Middle. I work in finance sphere, create microservices for business purposes.\nIn free time from work, I create useless and simple projects on Github:) I have small experience creating simple frontend applications with Flutter & VueJS.\nGood luck!",
   "year-of-experience": "2 years.",
   "skills": {
     "Java/Kotlin": 4,
@@ -11,41 +11,49 @@
     "Helm Charts/K8s": 2,
     "Gradle/Maven": 4,
     "RabbitMQ": 3,
-    "Jira/Gitlab/Azure": 3
+    "Jira/Gitlab/Azure": 3,
+    "VueJs": 1
   },
   "work-experience": [
     {
       "company": " OOO Аукционы Федерации",
-      "period": "12.2018 - 03.2020",
-      "responsibilities": "📎Processing applications from users\n \n\uD83D\uDCCECreating tickets in the integrator's bug tracking system\n \n\uD83D\uDCCEProviding technical support to users",
-      "skills": "📎Linux \n📎CSS \n📎HTML",
+      "period": "12.2018\n03.2020",
+      "skills": "Linux, CSS, HTML",
       "job": "Technical support specialist"
     },
     {
       "company": " K-SOFT ENGINEERING",
-      "period": "03.2020 - 09.2021",
-      "responsibilities": "📎Creation of accompanying software\n \n📎Improvement and expansion of the functionality of autotests\n \n📎Optimization of development processes",
-      "skills": "📎Java 11 \n📎Gradle \n📎JavaFx \n📎Spring Framework \n📎Selenium \n📎Google API \n📎PDFBox \n📎Linux",
+      "period": "03.2020\n09.2021",
+      "skills": "Java 11, Gradle JavaFX, Spring Framework, Selenium, Google API, PDFBox, Linux",
       "job": "QA-engineer (automation)"
     },
     {
       "company": " BCS FinTech",
-      "period": "09.2021 - 06.2023",
-      "responsibilities": "📎Creation of accompanying software\n \n📎Improvement and expansion of the functionality of autotests\n \n📎Optimization of development processes",
-      "skills": "📎Java 8-11 \n📎Kotlin \n📎Docker \n📎Openshift \n📎OKD \n📎Maven \n📎Spring Boot \n📎Spring WebFlux \n📎RabbitMQ \n📎PostgreSQL \n📎GitlabCI \n📎ELK \n📎OAuth2 \n📎Keycloak",
+      "period": "09.2021\n06.2023",
+      "skills": "Java 8-11, Kotlin, Docker, Openshift, OKD, Maven, Spring Boot, Spring WebFlux, RabbitMQ, PostgresSQL, GitlabCI, ELK, OAuth2, Keycloak",
       "job": "Java developer"
     },
     {
       "company": " Sovcombank Technology",
-      "period": "06.2023 - nowadays",
+      "period": "06.2023\nnowadays",
       "responsibilities": " - ",
-      "skills": "📎Java 8-11 \n📎Oracle Database \n📎Maven \n📎Spring Boot \n📎OAuth2 \n📎Keycloak \n📎VueJS",
+      "skills": "Java 8-11, Oracle Database, Maven, Spring Boot, OAuth2, Keycloak, VueJS",
       "job": "Middle Java developer"
     }
   ],
   "social-links": {
     "facebook": "https://www.facebook.com/abakshin.gleb.1",
     "linkedIn": "https://www.linkedin.com/in/alwayswanna",
-    "habrCareer": "https://career.habr.com/alwayswanna"
+    "habrCareer": "https://career.habr.com/alwayswanna",
+    "github": "https://github.com/alwayswanna",
+    "email": "a.gleb@yahoo.com"
+  },
+  "mainInfo":{
+    "firstName": "Gleb",
+    "lastName": "Abakshin",
+    "birthDate": "1998-02-17",
+    "currentLocation": "Russia, Ufa",
+    "experience": "2020-03-01",
+    "addition": "Relocate | Remote work"
   }
 }

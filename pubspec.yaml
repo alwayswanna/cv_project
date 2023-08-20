@@ -14,7 +14,6 @@ dependencies:
   cupertino_icons: ^1.0.2
   responsive_grid: ^2.1.0
   responsive_sizer: ^3.1.1
-  animate_gradient: ^0.0.2
   url_launcher: ^6.1.7
 
 dev_dependencies:
@@ -29,6 +28,8 @@ flutter:
     - assets/images/facebook.png
     - assets/images/linkedin.png
     - assets/images/habr.png
+    - assets/images/email.png
+    - assets/images/github.png
     - assets/data/main-data.json
   fonts:
     - family: Inconsolata
