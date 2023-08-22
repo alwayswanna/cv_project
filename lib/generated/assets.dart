@@ -9,5 +9,7 @@ class Assets {
   static const String habr = 'assets/images/habr.png';
   static const String facebook = 'assets/images/facebook.png';
   static const String linkedin = 'assets/images/linkedin.png';
+  static const String email = 'assets/images/email.png';
+  static const String github = 'assets/images/github.png';
 
 }
