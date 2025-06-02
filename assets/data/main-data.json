@@ -1,59 +1,80 @@
 {
-  "personal-data": "Hi, my name is Gleb. I'm Java/Kotlin - developer 1.5 of years experience, think scale grade knowledge is Middle. I work in finance sphere, create microservices for business purposes.\nIn free time from work, I create useless and simple projects on Github:) I have small experience creating simple frontend applications with Flutter & VueJS.\nGood luck!",
-  "year-of-experience": "2 years.",
+  "personal-data": "Experienced Java Developer with 5+ years of hands-on expertise in designing, developing, and optimizing robust backend systems. Passionate about writing clean, efficient code and implementing scalable solutions using modern Java ecosystems (Spring Boot, Hibernate, microservices).\n\nKey Strengths:\n✔ Reliable & detail-oriented — Proven track record of delivering high-quality code on time\n✔ Quick learner — Adapt seamlessly to new technologies and frameworks\n✔ Team player — Collaborative mindset with excellent communication skills\n✔ Problem solver — Analytical approach to debugging and system optimization\n\nTechnical Highlights:\n\nBackend development (Java 11+, Spring, REST APIs, SQL, Message Brokers)\nPerformance tuning (JVM, database queries, caching)\nCI/CD pipelines (Docker, Gitlab)\nAgile methodologies (Scrum/Kanban)\nBeyond Code:\nAn avid traveler and classic literature enthusiast who balances tech life with gaming, fitness, and learning German. Believe in continuous self-improvement both professionally and personally.",
   "skills": {
-    "Java/Kotlin": 4,
-    "Spring Boot/Spring Cloud": 4,
-    "String Security/OAuth2": 3,
-    "Keycloak": 3,
-    "Hibernate/JPA:": 4,
-    "Postgres/MySQL/MongoDB": 3,
-    "Helm Charts/K8s": 2,
-    "Gradle/Maven": 4,
-    "RabbitMQ": 3,
-    "Jira/Gitlab/Azure": 3,
-    "VueJs": 1
+    "Java": 93,
+    "Kotlin": 70,
+    "Spring": 80,
+    "Spring Security": 90,
+    "Hibernate/JPA:": 90,
+    "SQL/NoSQL": 70,
+    "Kubernetes": 60,
+    "Gradle/Maven": 80,
+    "RabbitMQ/Kafka": 75,
+    "Jira/Gitlab": 50,
+    "VueJs/Flutter": 20
   },
   "work-experience": [
     {
-      "company": " OOO Аукционы Федерации",
-      "period": "12.2018\n03.2020",
-      "skills": "Linux, CSS, HTML",
-      "job": "Technical support specialist"
+      "company": "K-SOFT ENGINEERING",
+      "period": "12.2018 - 09.2021",
+      "responsibilities": [
+        "Design, develop, and maintain automated test scripts (UI)",
+        "Ensure tests are scalable, maintainable, and reusable",
+        "Generate and analyze test execution reports",
+        "Optimize test execution speed and reliability"
+      ],
+      "job": "QA Automation Engineer"
     },
     {
-      "company": " K-SOFT ENGINEERING",
-      "period": "03.2020\n09.2021",
-      "skills": "Java 11, Gradle JavaFX, Spring Framework, Selenium, Google API, PDFBox, Linux",
-      "job": "QA-engineer (automation)"
+      "company": "FG BCS",
+      "period": "09.2021 - 06.2023",
+      "responsibilities": [
+        "Write clean, efficient, and well-documented Java code following best practices",
+        "Worked in several teams that provided work for the entire company (Authorization, Checking the client's integrity)",
+        "Work on bug fixes, feature implementation, and small enhancements",
+        "Use Spring Boot, JBoss, Hibernate, Maven/Gradle, Git, PostgreSQL, RabbitMQ, Docker, OpenShift"
+      ],
+      "job": "Java Software Engineer"
     },
     {
-      "company": " BCS FinTech",
-      "period": "09.2021\n06.2023",
-      "skills": "Java 8-11, Kotlin, Docker, Openshift, OKD, Maven, Spring Boot, Spring WebFlux, RabbitMQ, PostgresSQL, GitlabCI, ELK, OAuth2, Keycloak",
-      "job": "Java developer"
+      "company": "SOVCOMBANK",
+      "period": "06.2023 - 2024",
+      "responsibilities": [
+        "Design and implement complex features in Java applications",
+        "Participate in architecture decisions (monolith → microservices)",
+        "Conduct code reviews for junior developers",
+        "Mentor newcomers and share best practices",
+        "Write integration/unit tests (JUnit 5, TestContainers)"
+      ],
+      "job": "Middle Java Software Engineer"
     },
     {
-      "company": " Sovcombank Technology",
-      "period": "06.2023\nnowadays",
-      "responsibilities": " - ",
-      "skills": "Java 8-11, Oracle Database, Maven, Spring Boot, OAuth2, Keycloak, VueJS",
-      "job": "Middle Java developer"
+      "company": "SOVCOMBANK",
+      "period": "2024 - nowadays",
+      "responsibilities": [
+        "Active participation in the project architecture",
+        "Global refactoring of a large system with a monolithic architecture",
+        "Drive CI/CD pipeline improvements",
+        "Analysis and development of a new centralized service for authorization and authentication of employees working with the product (Spring Authorization Service implementation)"
+      ],
+      "job": "Senior Java Software Engineer"
     }
   ],
   "social-links": {
-    "facebook": "https://www.facebook.com/abakshin.gleb.1",
-    "linkedIn": "https://www.linkedin.com/in/alwayswanna",
-    "habrCareer": "https://career.habr.com/alwayswanna",
-    "github": "https://github.com/alwayswanna",
+    "facebook": "facebook.com/abakshin.gleb.1",
+    "linkedIn": "linkedin.com/in/alwayswanna",
+    "habrCareer": "career.habr.com/alwayswanna",
+    "github": "github.com/alwayswanna",
     "email": "a.gleb@yahoo.com"
   },
   "mainInfo":{
     "firstName": "Gleb",
     "lastName": "Abakshin",
-    "birthDate": "1998-02-17",
-    "currentLocation": "Russia, Ufa",
-    "experience": "2020-03-01",
-    "addition": "Relocate | Remote work"
+    "position": "Java Software Engineer",
+    "birthDate": "17.02.1998",
+    "currentLocation": "Russia, Saint Petersburg",
+    "addition": "Relocate EU | Remote work",
+    "education": "Higher (bachelor's degree)",
+    "photoLink": "https://media.licdn.com/dms/image/v2/C5603AQE89rNdXabmcg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1660840501573?e=1754524800&v=beta&t=ZnpyMhLnDNkSG7hnExV3b7_keNKkRuDRzhgtRbfSEk8"
   }
 }
