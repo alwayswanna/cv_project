@@ -26,19 +26,19 @@ class WorkExperience {
   final String company;
   final String period;
   final String job;
-  final String skills;
+  final List<String> responsibilities;
 
   WorkExperience(
       {required this.company,
       required this.period,
       required this.job,
-      required this.skills});
+      required this.responsibilities});
 
   WorkExperience.fromJson(Map<String, dynamic> json)
       : company = json['company'],
         period = json['period'],
         job = json['job'],
-        skills = json['skills'];
+        responsibilities = List<String>.from(json['responsibilities']);
 }
 
 class SocialLinks {
@@ -48,13 +48,12 @@ class SocialLinks {
   final String github;
   final String email;
 
-  SocialLinks({
-    required this.facebook,
-    required this.linkedIn,
-    required this.habrCareer,
-    required this.github,
-    required this.email
-  });
+  SocialLinks(
+      {required this.facebook,
+      required this.linkedIn,
+      required this.habrCareer,
+      required this.github,
+      required this.email});
 
   SocialLinks.fromJson(Map<String, dynamic> json)
       : facebook = json['facebook'],
@@ -67,24 +66,30 @@ class SocialLinks {
 class MainInfo {
   final String firstName;
   final String lastName;
+  final String position;
   final String birthDate;
   final String currentLocation;
-  final String experience;
+  final String education;
   final String addition;
+  final String photoLink;
 
   MainInfo(
       {required this.birthDate,
       required this.firstName,
       required this.lastName,
+      required this.position,
       required this.currentLocation,
-      required this.experience,
-      required this.addition});
+      required this.education,
+      required this.addition,
+      required this.photoLink});
 
   MainInfo.fromJson(Map<String, dynamic> json)
       : firstName = json['firstName'],
         lastName = json['lastName'],
+        position = json['position'],
         birthDate = json['birthDate'],
+        education = json['education'],
         currentLocation = json['currentLocation'],
-        experience = json['experience'],
-        addition = json['addition'];
+        addition = json['addition'],
+        photoLink = json['photoLink'];
 }
