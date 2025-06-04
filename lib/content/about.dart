@@ -1,6 +1,5 @@
 import 'package:cv_project/data/personal_data.dart';
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 Widget buildAboutSection(PersonalData data) {
   return Container(
