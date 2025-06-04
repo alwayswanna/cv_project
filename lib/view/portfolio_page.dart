@@ -66,7 +66,7 @@ class _PortfolioPageState extends State<PortfolioPage> {
               return Scaffold(
                 appBar: _isMobile
                     ? AppBar(
-                        title: const Text('Резюме'),
+                        title: const Text('Resume'),
                         centerTitle: true,
                       )
                     : null,
@@ -74,7 +74,7 @@ class _PortfolioPageState extends State<PortfolioPage> {
                 body: _buildBody(snapshot.data!),
               );
             } else if (snapshot.hasError) {
-              return Center(child: Text('Ошибка загрузки: ${snapshot.error}'));
+              return Center(child: Text('Loading error: ${snapshot.error}'));
             }
           }
           return const Center(child: CircularProgressIndicator());
